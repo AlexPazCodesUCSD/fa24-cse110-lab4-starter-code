@@ -1,5 +1,6 @@
 import AddExpenseForm from "../components/Expense/AddExpenseForm";
 import Budget from "../components/Budget/Budget";
+import UpdateBudgetForm from "../components/Budget/UpdateBudget";
 import ExpenseList from "../components/Expense/ExpenseList";
 import ExpenseTotal from "../components/Expense/ExpenseTotal";
 import Remaining from "../components/Remaining";
