@@ -31,6 +31,12 @@ export const MyBudgetTracker = () => {
           <AddExpenseForm />
         </div>
       </div>
+      <h3 className="mt-3">Update Budget</h3>
+      <div className="row mt-3">
+        <div className="col-sm">
+          <UpdateBudgetForm />
+        </div>
+      </div>
     </div>
   );
 };
