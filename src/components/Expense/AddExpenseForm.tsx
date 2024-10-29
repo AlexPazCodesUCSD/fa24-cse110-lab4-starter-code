@@ -34,6 +34,7 @@ const AddExpenseForm = () => {
             value={name}
             // HINT: onChange={}
             onChange={(event) => setName(event.target.value)}
+            data-testid = "nameInput"
           ></input>
         </div>
         <div className="col-sm">
@@ -45,6 +46,7 @@ const AddExpenseForm = () => {
             id="cost"
             value={cost}
             onChange={(event) => setCost(parseFloat(event.target.value))}
+            data-testid = "costInput"
           ></input>
         </div>
         <div className="col-sm">
